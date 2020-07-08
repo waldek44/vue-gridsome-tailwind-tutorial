@@ -101,3 +101,8 @@ module.exports = {
 }
 ```
 
+### 3. Logo + Card
+Robię kartę
+'tracking-wider' to letter-spacing
+'h-3' to wysokość
+'text-sm' pomniejszenie rozmiaru tekstu
