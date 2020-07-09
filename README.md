@@ -1,9 +1,11 @@
 # Gridsome Tailwing Tutorial
 
+
 ### 1. Tworzę projekt
 ```
 gridsome create my-gridsome-site
 ```
+
 
 ### 2. Dodaję Tailwind
 
@@ -101,8 +103,15 @@ module.exports = {
 }
 ```
 
+
 ### 3. Logo + Card
 Robię kartę
-'tracking-wider' to letter-spacing
-'h-3' to wysokość
-'text-sm' pomniejszenie rozmiaru tekstu
+*tracking-wider* to letter-spacing
+*h-3* to wysokość
+*text-sm* pomniejszenie rozmiaru tekstu
+
+
+### 4. Responsive - drobne zmiany
+*max-w-md* maksymalna szerokość diva - bardzo użyteczne
+*mx-auto*  wyśrodkuje diva na viewport
+*sm:* od sm do xl przejmie zadany parametr, zawsze leci w górę (sm | md | lg | xl)
