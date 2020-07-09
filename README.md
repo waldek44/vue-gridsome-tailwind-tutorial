@@ -115,3 +115,16 @@ Robię kartę
 *max-w-md* maksymalna szerokość diva - bardzo użyteczne
 *mx-auto*  wyśrodkuje diva na viewport
 *sm:* od sm do xl przejmie zadany parametr, zawsze leci w górę (sm | md | lg | xl)
+
+### 5. Responsive zmiana układu przy zmianie viewport
+
+Aby uzyskać efekt, że zdjęcie i tekst układają się pozimo na lg:  
+1. Tworzę div wrapper dla flexa
+2. na dole dodaję nowy div ze zdjęciem który będzie widoczny
+tylko na lg i ukrywam na lg ten górny div ze zdjęciem.  
+*hidden lg:block* ukrywa div na wszystkim oprócz lg
+
+
+
+
+
