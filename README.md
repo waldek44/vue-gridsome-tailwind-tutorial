@@ -144,6 +144,6 @@ w *variants* mogę zmieniać też inne parametry: opacity, border, text-color, i
 Biorę wszystkie style które dodałem do buttona i aplikuję je w *main.css* pomiędzy components i utilities jako style globalne .btn
 
 
-
+### 8. Dodane karty z komponentu
 
 
