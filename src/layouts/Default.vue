@@ -11,7 +11,8 @@
         </h1>
         <p class="mt-2 sm:mt-4 text-gray-600 text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nostrum odio dolorum, delectus quaerat exercitationem, quae, a eius eveniet quia vitae eaque. Eum, cupiditate. Ipsum dolorem ipsa eligendi est excepturi!</p>
         <div class="mt-4">
-          <a href="#" class="inline-block bg-indigo-500 md:hover:bg-gray-600 hover:bg-indigo-600 focus:shadow-outline active:bg-indigo-800 text-sm text-white px-4 py-3 rounded-md shadow-lg hover:shadow-xl uppercase tracking-wider font-semibold">Book your escape</a>
+          <a href="#" class="btn btn-indigo">Book your escape</a>
+          <a href="#" class="btn btn-gray mx-3">Learn more</a>
         </div>
       </div>
       <!-- card sm md -->

@@ -125,7 +125,7 @@ tylko na lg i ukrywam na lg ten górny div ze zdjęciem.
 *hidden lg:block* ukrywa div na wszystkim oprócz lg
 
 
-### 6. Hover, Focus Active
+### 6. Hover, Focus, Active
 Hover i focus dodajemy normalnie. Aby zmienić active dodajemy w *tailwind.config.js* opcję w *variants*:
 ```
 // wymieniam wszystkie, w tej kolejności.
@@ -139,6 +139,9 @@ md:hover:bg-gray-600
 
 w *variants* mogę zmieniać też inne parametry: opacity, border, text-color, itp...
 
+### 7. Dyrektywa @apply - Tworzenie własnej klasy
+
+Biorę wszystkie style które dodałem do buttona i aplikuję je w *main.css* pomiędzy components i utilities jako style globalne .btn
 
 
 
