@@ -125,6 +125,22 @@ tylko na lg i ukrywam na lg ten górny div ze zdjęciem.
 *hidden lg:block* ukrywa div na wszystkim oprócz lg
 
 
+### 6. Hover, Focus Active
+Hover i focus dodajemy normalnie. Aby zmienić active dodajemy w *tailwind.config.js* opcję w *variants*:
+```
+// wymieniam wszystkie, w tej kolejności.
+backgroundColor: ['responsive', 'hover', 'focus', 'active'],
+```
+
+Żeby nadać wygląd tylko dla jednej rozdzielczości, kombinacja:
+```
+md:hover:bg-gray-600
+```
+
+w *variants* mogę zmieniać też inne parametry: opacity, border, text-color, itp...
+
+
+
 
 
 
