@@ -1,6 +1,10 @@
 module.exports = {
   theme: {
-      extend: {}
+      extend: {
+        colors: {
+          waldkowy: '#A90C51',
+        }
+      }
   },
   variants: {
     // wymieniam wszystkie, w tej kolejności.

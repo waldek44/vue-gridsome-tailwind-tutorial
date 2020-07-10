@@ -147,3 +147,27 @@ Biorę wszystkie style które dodałem do buttona i aplikuję je w *main.css* po
 ### 8. Dodane karty z komponentu
 
 
+### 9. Customization
+Żeby pozmieniać pod siebie kolory, breakpoints, itd. mam dwie możliwośći  (druga jest lepsza dla mnie)
+1. należy utworzyć plik:
+```
+npx tailwind init tailwind-full.config.js --full
+```
+w tym pliku mogę pozmieniać domyślne klucze i wartośći, np:  
+zamiast sm: '640px' zrobić mobile: '440px'.  
+
+Ja dla przykładu zmieniłem gray-500 na fioletowy :D 
+żeby zadziałała muszę podmienić *tailwind-full.config.js* na *tailwind.config.js*
+
+2. aby dodawać swoje kolejne customowe style, otwieram *tailwind.config.js* i w sekcji extends
+```
+  theme: {
+      extend: {
+        colors: {
+          waldkowy: '#fav',
+        }
+      }
+  },
+``` 
+
+

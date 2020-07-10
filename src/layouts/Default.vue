@@ -8,15 +8,15 @@
         <div class="xl:max-w-lg xl:ml-auto">
           <g-image class="h-10" src="~/assets/logo.png" width="44" /> 
           <g-image class="mt-6 rounded-lg shadow-xl sm:mt-8 sm:h-64 sm:object-cover sm:object-center  lg:hidden" src="~/assets/11.jpg"/> 
-          <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl">
+          <h1 class="mt-6 text-2xl font-bold text-gray-900 leading-tight sm:mt-8 sm:text-4xl lg:text-3xl xl:text-4xl ">
             You can work from anywhere.
-            <br class="hidden lg:inline"><span class="text-indigo-500">Take advantage of it.</span>
+            <br class="hidden lg:inline"><span class="text-gray-500">Take advantage of it.</span>
           </h1>
-          <p class="mt-2 text-gray-600 sm:mt-4 sm:text-xl">
+          <p class="mt-2 text-waldkowy sm:mt-4 sm:text-xl">
             Workcation helps you find work-friendly rentals in beautiful locations so you can enjoy some nice weather even when you're not on vacation.
           </p>
           <div class="mt-4 sm:mt-6">
-            <a href="#" class="btn btn-indigo shadow-lg sm:text-base">Book your escape</a>
+            <a href="#" class="btn bg-waldkowy text-white shadow-lg sm:text-base">Book your escape</a>
           </div>
         </div>
       </div>
