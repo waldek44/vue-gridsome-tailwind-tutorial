@@ -1,8 +1,10 @@
-<template>
-<div>
-   
-
+<template> 
  <div id="app">
+
+  <Navbar />
+
+
+    <!-- 1 -->
     <div class="bg-gray-100 flex">
       <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
         <div class="xl:max-w-lg xl:ml-auto">
@@ -24,6 +26,9 @@
         <g-image class="absolute inset-0 h-full w-full object-cover object-center" src="~/assets/11.jpg" />
       </div>
     </div>
+    <!-- 1 -->
+
+    <!-- 2 -->
     <div>
       <div class="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
         <h2 class="text-xl text-gray-900">Popular destinations</h2>
@@ -35,8 +40,7 @@
         </div>
       </div>
     </div>
-  </div>
-
+    <!-- 2 -->
   </div>
 
 
@@ -52,10 +56,11 @@ query {
 
 <script>
 import DestinationCard from '~/components/DestinationCard'
+import Navbar from '~/components/Navbar'
 export default {
   name: 'app',
   components: {
-    DestinationCard,
+    DestinationCard, Navbar
   },
   data() {
     return {
