@@ -172,3 +172,5 @@ Ja dla przykładu zmieniłem gray-500 na fioletowy :D
 
 ### 10. Navbar
 
+### 11. Dropdown
+

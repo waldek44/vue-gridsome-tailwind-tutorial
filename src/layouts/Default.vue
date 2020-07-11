@@ -3,7 +3,6 @@
 
   <Navbar />
 
-
     <!-- 1 -->
     <div class="bg-gray-100 flex">
       <div class="px-8 py-12 max-w-md mx-auto sm:max-w-xl lg:max-w-full lg:w-1/2 lg:py-24 lg:px-12">
@@ -22,8 +21,8 @@
           </div>
         </div>
       </div>
-      <div class="hidden lg:block lg:w-1/2 lg:relative">
-        <g-image class="absolute inset-0 h-full w-full object-cover object-center" src="~/assets/11.jpg" />
+      <div class="hidden lg:block lg:w-1/2 ">
+        <g-image class=" inset-0 h-full w-full object-cover object-center" src="~/assets/11.jpg" />
       </div>
     </div>
     <!-- 1 -->

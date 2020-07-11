@@ -19,10 +19,29 @@
   <!-- right -->
 </div>
   <!-- linki -->
-  <div :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-1 pb-4 sm:flex sm:p-0">
+  <div :class="isOpen ? 'block' : 'hidden'" class="sm:block">
+    <div class="px-2 pt-1 pb-4 sm:flex sm:p-0">
     <a href="#" class="block text-white font-semibold hover:bg-gray-600 px-2 py-1 ">pierwszy</a>
     <a href="#" class="block text-white font-semibold hover:bg-gray-600 px-2 py-1 mt-1 sm:mt-0 sm-ml-2">drugi</a>
     <a href="#" class="block text-white font-semibold hover:bg-gray-600 px-2 py-1 mt-1 sm:mt-0 sm-ml-2">trzeci</a>
+    <Dropdown class="hidden sm:block ml-6" />
+    </div>
+    
+
+    <!--tu dodaję dropdawn widoczny tylko na mobile, a orginalny dropdown ukryję -->
+    <div class="px-4 py-6 border-t border-gray-600 mt-4 p-2 sm:hidden">
+      <div class="flex items-center">
+        <g-image contain="w-full h-full object-cover" src="~/assets/avatar.png" width="44" /> 
+        <span class="text-white ml-3 font-semibold">Jane Doe</span>
+      </div>
+      <div class="">
+        <a href="#" class="text-gray-400 block mt-2 hover:text-white">pierwszy</a>
+        <a href="#" class="text-gray-400 block mt-2 hover:text-white">drugi</a>
+        <a href="#" class="text-gray-400 block mt-2 hover:text-white">trzeci</a>
+      </div>
+    </div>
+    <!--tu dodaję dropdawn widoczny tylko na mobile, a orginalny dropdown ukryję -->
+
   </div>
   <!-- linki -->
 
@@ -30,7 +49,11 @@
 </template>
 
 <script>
+import Dropdown from '~/components/Dropdown'
 export default {
+  components: {
+    Dropdown
+  },
   data() {
     return {
       isOpen: false,
